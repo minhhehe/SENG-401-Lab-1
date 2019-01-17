@@ -11,18 +11,45 @@
   <body>
 
     <!-- Modify images based on their ID in CSS -->
-    <img class='ImgBanner' id='Image1' src="https://image.shutterstock.com/image-vector/synergy-word-cloud-450w-1176210484.jpg"
-    alt="SYNERGY">
-    <img class='ImgBanner' id='Image2'src="https://media.wiley.com/product_data/coverImage300/09/11186572/1118657209.jpg"
-    alt="halp">
-    <img class='ImgBanner' id='Image3'src="https://r.hswstatic.com/w_907/gif/luddites-podcast.png"
-    alt="percussive debug">
+    <section class='ImgGallery'>
+      <img class='GalleryImage' id='Image1' src="https://image.shutterstock.com/image-vector/synergy-word-cloud-450w-1176210484.jpg" alt="SYNERGY">
+      <img class='GalleryImage' id='Image2'src="https://media.wiley.com/product_data/coverImage300/09/11186572/1118657209.jpg" alt="halp">
+      <img class='GalleryImage' id='Image3'src="https://r.hswstatic.com/w_907/gif/luddites-podcast.png" alt="percussive debug">
+    </section>
 
     <h1 id='MainHeader'>SENG 401</h1>
 
     <section id='AboutUs'>
       <p>About us: paragraph about each of your team members containing name and photo</p>
+      <div class="MemberProfile">
+        <img id='ProfilePicJesse' src="assets/TempProfilePic.jpg" alt='Jesse'>
+        <div class="MemberBio">Jesse</div>
+      </div>
+      <div class="MemberProfile">
+        <img id='ProfilePicRichard' src="assets/TempProfilePic.jpg" alt='Richard'>
+        <div class="MemberBio">Richard</div>
+      </div>
+      <div class="MemberProfile">
+        <img id='ProfilePicMinh' src="assets/TempProfilePic.jpg" alt='Minh'>
+        <div class="MemberBio">Minh</div>
+      </div>
+      <div class="MemberProfile">
+        <img id='ProfilePicShishir' src="assets/TempProfilePic.jpg" alt='Shishir'>
+        <div class="MemberBio">Shishir</div>
+      </div>
+      <div class="MemberProfile">
+        <img id='ProfilePicAlex' src="assets/TempProfilePic.jpg" alt='Alex'>
+        <div class="MemberBio">Alex</div>
+      </div>
+      <div class="MemberProfile">
+        <img id='ProfilePicKevin' src="assets/TempProfilePic.jpg" alt='Kevin'>
+        <div class="MemberBio">Kevin</div>
+      </div>
     </section>
+
+    <div style="Clear:both;"
+    <br/>
+    <hr/>
 
     <section id='VisitorForm'>
       <p>Make form here for visitors to add title, phone, email, date, website, and message</p>
@@ -55,7 +82,8 @@
       <img id='WorldMap' src="assets/WorldMap.png" alt="World Map" width="720" height="360">
       <svg id='CalgCoordMarker'>
         <a href='http://www.calgary.ca/'>
-        <circle id='CalgCoordCircle' cx="50" cy="50" r="2" stroke="red" stroke-width="0.5" fill="red" fill-opacity="0.1" />
+          <circle id='CalgCoordCircle' cx="50" cy="50" r="2" stroke="red" stroke-width="0.5" fill="red" fill-opacity="0.1" />
+        </a>
       </svg>
     </section>
 
