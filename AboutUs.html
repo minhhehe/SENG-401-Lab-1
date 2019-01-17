@@ -24,6 +24,29 @@
     </section>
     <section id='VisitorForm'>
       <p>Make form here for visitors to add title, phone, email, date, website, and message</p>
+      <form action="">
+        Title:<br>
+        <input type="text" name="visitTitle">
+        <br>
+        Phone: (xxx)xxx-xxxx<br>
+        <input type="tel" name="visitPhone" pattern="[\(]\d{3}[\)]\d{3}[\-]\d{4}" required>
+        <br>
+        Email:<br>
+        <input type="email" name="visitEmail">
+        <br>
+        Date:<br>
+        <input type="date" name="visitDate">
+        <br>
+        Website:<br>
+        <input type="url" name="visitWebsite">
+        <br>
+        Message:<br>
+        <input type="text" name="visitMessage">
+
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
     </section>
     <section id='MapSection'>
       <p>Do a map thing. with circles.</p>
