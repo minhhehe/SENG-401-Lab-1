@@ -6,6 +6,20 @@
     <meta name="keywords" content="HTML">
     <meta name="author" content="Jesse Fowler">
     <title>SENG 401</title>
+    <style>
+
+#MapSection {
+  position: relative;
+}
+
+.CoordMarker {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  font-size: 18px;
+}
+
+</style>
   </head>
   <body>
 
@@ -22,6 +36,7 @@
     <section id='AboutUs'>
       <p>About us: paragraph about each of your team members containing name and photo</p>
     </section>
+
     <section id='VisitorForm'>
       <p>Make form here for visitors to add title, phone, email, date, website, and message</p>
       <form action="">
@@ -48,11 +63,11 @@
         <input type="reset">
       </form>
     </section>
+
     <section id='MapSection'>
-      <p>Do a map thing. with circles.</p>
       <img id='WorldMap' src="assets/WorldMap.png" alt="World Map" width="720" height="360">
-      <svg id='CalgCoord' width="100" height="100">
-        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="no-fill" />
+      <svg class='CoordMarker'>
+        <circle id='CalgCoordCircle' cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="none" />
       </svg>
     </section>
 
